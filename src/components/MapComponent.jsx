@@ -7,7 +7,7 @@ import carIcon from '../assets/yellow_car.png';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN
+mapboxgl.accessToken = process.env.MAPBOX_TOKEN
 
 const MapComponent = () => {
     const mapContainerRef = useRef(null);
@@ -16,7 +16,6 @@ const MapComponent = () => {
     const [mapHasBeenMoved, setMapHasBeenMoved] = useState(false);
 
     useEffect(() => {
-        //if (map.current) return;
         const map = new mapboxgl.Map({
             container: 'map-container',
             style: 'mapbox://styles/mapbox/streets-v12',

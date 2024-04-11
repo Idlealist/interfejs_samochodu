@@ -434,7 +434,7 @@
 }
 
 .mapboxgl-ctrl-bottom-right {
-    transform: scale(1.5); /* Dostosuj wartość 'scale' według własnych preferencji */
+    transform: scale(1.5);
     margin: 20px 10px;
 }
 

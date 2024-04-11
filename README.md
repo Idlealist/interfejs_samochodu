@@ -13,6 +13,11 @@ Przed rozpoczęciem pracy nad projektem upewnij się, że masz zainstalowane nas
     ```bash
     cd nazwa_projektu
     ```
+2. Utwórz plik `.env` o treści:
+
+    ```
+    MAPBOX_TOKEN=*wprowadź token wygenerowany przez mapbox*
+    ```
 
 3. Zainstaluj zależności przy użyciu npm lub yarn:
 

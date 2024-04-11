@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Importuj Link
+import { Link } from 'react-router-dom'; 
+
 import mapboxgl from "mapbox-gl";
+
 import carIcon from "../assets/yellow_car.png";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;

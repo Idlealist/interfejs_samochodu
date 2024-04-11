@@ -1,5 +1,6 @@
+import React from "react"; 
+
 import mapboxgl from "mapbox-gl";
-import React from "react"; // Jeśli używasz React
 
 const ShowRoute = ({ map, end, setRouteData, setRouteSteps }) => {
     const start = [19.906381, 50.029823];
